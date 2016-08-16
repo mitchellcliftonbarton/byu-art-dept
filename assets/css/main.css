@@ -1597,9 +1597,9 @@
 	body {
 		background: #f0f4f4;
 		color: #5b5b5b;
-		font-size: 15pt;
-		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 16px;
+		line-height: 1.75em;
+		font-family: 'Helvetica', sans-serif;
 		font-weight: 300;
 	}
 
@@ -1639,6 +1639,8 @@
 
 	h2 {
 		font-size: 1.85em;
+		letter-spacing: .3em;
+		text-transform: uppercase;
 	}
 
 	h3 {
@@ -1697,7 +1699,7 @@
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 	}
 
 	br.clear {
@@ -2156,7 +2158,7 @@
 	.wrapper {
 		background: #fff;
 		margin: 0;
-		padding: 6em 0 6em 0;
+		padding: 30px;
 	}
 
 		.wrapper.style2 {
@@ -2245,8 +2247,13 @@
 			margin: 1em 0 0 0;
 		}
 
+		#header .wrapper {
+			width: 65%;
+			margin: 0 auto;
+		}
+
 	body.homepage #header {
-		height: 100vh;
+		/*height: 100vh;*/
 		min-height: 40em;
 	}
 
@@ -2283,7 +2290,7 @@
 				z-index: 1000;
 				background-color: rgba(255, 255, 255, .90);
 				width: 100%;
-				height: 3em;
+				height: 49px;
 				font-size: 80%;
 				line-height: 3em;
 				text-align: center;
@@ -2301,7 +2308,7 @@
 
 				#nav li {
 					display: inline-block;
-					margin: 0 0.5em 0 0.5em;
+					margin: 0 9px 0 9px;
 					top: 0;
 					position: relative;
 					-moz-transition: top .15s ease-in-out;
@@ -2355,7 +2362,7 @@
 						text-decoration: none;
 						color: #666;
 						top: -6px;
-						padding: 6px 1.5em 0.25em 1.5em;
+						padding: 9px 20px;
 						outline: 0;
 						font-size: 14px;
 						letter-spacing: 2px;
@@ -2436,7 +2443,7 @@
 	#banner {
 		background: #fff;
 		text-align: center;
-		padding: 4.5em 2em 1em 2em;
+		padding: 2em 2em 1em 2em;
 		margin-bottom: 0;
 	}
 
@@ -2444,11 +2451,51 @@
 			margin-bottom: 0;
 		}
 
-	#banner img {
+	#banner .full {
 		width: 100%;
 		margin-top: 60px;
 	}
 
+	.push-d-30 {
+		margin-bottom: 30px;
+	}
+
+	.push-u-30 {
+		margin-top: 30px;
+	}
+
+	.fac-row {
+		display: flex;
+		padding: 40px 0px;
+		border-bottom: 1px solid #e2e2e2;
+		align-items: center;
+	}
+
+	.fac-row div:first-of-type p:first-of-type {
+		color: black;
+		font-weight: 500;
+	}
+
+	.fac-row img {
+		height: 170px;
+	}
+
+	.fac-row div {
+		flex: 1 1;
+	}
+
+	.fac-row div:first-of-type {
+		padding-left: 50px;
+	}
+
+	.fac-row p {
+		color: #555;
+		margin-bottom: 0;
+	}
+
+	.fac-row .bio {
+		flex: 3 1;
+	}
 /* Content */
 
 	#content > hr {
