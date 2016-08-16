@@ -2332,6 +2332,7 @@
 						-o-transition: background 0.35s ease-in-out;
 						-ms-transition: background 0.35s ease-in-out;
 						transition: background 0.35s ease-in-out;
+						padding: 5px 20px;
 					}
 
 					.byuart {
@@ -2341,7 +2342,7 @@
 						#titleBar .title a.byuart { top: auto; vertical-align: middle; }
 
 						#nav li a.byuart:hover, #titleBar .title a.byuart:hover {
-							background: url('http://christopher-lynn.com/byu/i/byu-art-logo-150pxw-sprite.png') no-repeat 0 4px scroll;
+							background: url('http://christopher-lynn.com/byu/i/byu-art-logo-150pxw-sprite.png') no-repeat 0 0px scroll;
 							background-size: 150px 26px;
 							opacity: 1;
 							-webkit-transition: background 0.35s ease-in-out;
@@ -2621,6 +2622,28 @@
 		}
 
 		#footer #seal a { border: 0; }
+
+		.main-footer, .foot-head {
+			padding: 0;
+			width: 100%;
+			display: flex;
+		}
+
+		.foot-head {
+			margin-bottom: 7px;
+		}
+
+		.foot-sec {
+			flex: 1 1;
+		}
+
+		.foot-head .foot-sec p {
+			font-weight: 400;
+		}
+
+		.foot-head .foot-sec:first-of-type p {
+			letter-spacing: 4px;
+		}
 
 /* Carousel */
 
