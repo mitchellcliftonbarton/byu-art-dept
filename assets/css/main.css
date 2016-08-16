@@ -29,9 +29,9 @@
 	ol, ul {
 		list-style: none;
 	}
-	
+
 	dl { text-align: left; }
-	
+
 	dl dt { font-weight: 500; border-bottom: 1px solid rgb(107,106,105); }
 		dl dl dt { font-weight: normal; border-bottom: none; }
 		dl dd { margin-left: 1.5em; }
@@ -479,7 +479,7 @@
 	.\-1u {
 		margin-left: 8.33333%;
 	}
-	
+
 	/*  COLUMN SETUP  */
 	.col {
 		display: block;
@@ -487,25 +487,25 @@
 		margin: 1% 0 1% 1.6%;
 	}
 	.col:first-child { margin-left: 0; }
-	
+
 	/*  GROUPING  */
 	.group:before,
 	.group:after { content:""; display:table; }
 	.group:after { clear:both;}
 	.group { zoom:1; /* For IE 6/7 */ }
-	
+
 	/*  GRID OF TWELVE  */
-	.span_12_of_12 { width: 100%; }	
+	.span_12_of_12 { width: 100%; }
 	.span_11_of_12 { width: 91.53%; }
-	.span_10_of_12 { width: 83.06%; }	
-	.span_9_of_12 { 	width: 74.6%; }	
-	.span_8_of_12 { 	width: 66.13%; }	
-	.span_7_of_12 { 	width: 57.66%; }	
-	.span_6_of_12 { 	width: 49.2%; }	
-	.span_5_of_12 { 	width: 40.73%; }	
-	.span_4_of_12 { 	width: 32.26%; }	
-	.span_3_of_12 {	width: 23.8%; }	
-	.span_2_of_12 {	width: 15.33%; }	
+	.span_10_of_12 { width: 83.06%; }
+	.span_9_of_12 { 	width: 74.6%; }
+	.span_8_of_12 { 	width: 66.13%; }
+	.span_7_of_12 { 	width: 57.66%; }
+	.span_6_of_12 { 	width: 49.2%; }
+	.span_5_of_12 { 	width: 40.73%; }
+	.span_4_of_12 { 	width: 32.26%; }
+	.span_3_of_12 {	width: 23.8%; }
+	.span_2_of_12 {	width: 15.33%; }
 	.span_1_of_12 { 	width: 6.866%; }
 
 	@media screen and (max-width: 1680px) {
@@ -1582,13 +1582,13 @@
 		}
 
 	}
-	
+
 	/*  GO FULL WIDTH BELOW 480 PIXELS */
 	@media only screen and (max-width: 480px) {
 		.col {  margin: 1% 0 1% 0%; }
-		
+
 		.span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
-		width: 100%; 
+		width: 100%;
 		}
 	}
 
@@ -1767,27 +1767,27 @@
 			line-height: 1.5em;
 			text-align: inherit;
 		}
-		
+
 		header h1 { display: none; }
-		
+
 		header img { width: 45%; max-width: 1000px; margin-top: 5% }
-		
+
 		@media screen and (max-width: 1280px) {
-		
+
 			header img { width: 50%; margin-top: 0; }
-			
+
 		}
-		
+
 		@media screen and (max-width: 840px) {
-		
+
 			header img { width: 65%; }
-			
+
 		}
-				
+
 		@media screen and (max-width: 736px) {
-		
+
 			header img { width: 75%; }
-			
+
 		}
 
 	footer {
@@ -2277,7 +2277,7 @@
 				font-weight: 400;
 				cursor: default;
 			}
-			
+
 				#nav a { border-bottom: none; }
 
 				#nav ul {
@@ -2297,9 +2297,9 @@
 					transition: top .15s ease-in-out;
 				}
 
-					#nav li a.byuart, #titleBar .title a.byuart { 
-						position: relative; 
-						top: 1em; 
+					#nav li a.byuart, #titleBar .title a.byuart {
+						position: relative;
+						top: 1em;
 						display: inline-block;
 						width: 150px;
 						height: 13px;
@@ -2310,13 +2310,13 @@
 						-webkit-transition: background 0.35s ease-in-out;
 						-moz-transition: background 0.35s ease-in-out;
 						-o-transition: background 0.35s ease-in-out;
-						-ms-transition: background 0.35s ease-in-out;    
+						-ms-transition: background 0.35s ease-in-out;
 						transition: background 0.35s ease-in-out;
 					}
-					
+
 						#titleBar .title a.byuart { top: auto; vertical-align: middle; }
-					
-						#nav li a.byuart:hover, #titleBar .title a.byuart:hover { 
+
+						#nav li a.byuart:hover, #titleBar .title a.byuart:hover {
 							background: url('http://christopher-lynn.com/byu/i/byu-art-logo-150pxw-sprite.png') no-repeat 0 0px scroll;
 							background-size: 150px 26px;
 							opacity: 1;
@@ -2326,7 +2326,7 @@
 							-ms-transition: background 0.35s ease-in-out;
 							transition: background 0.35s ease-in-out;
 						}
-					
+
 					#nav li > ul {
 						display: none;
 					}
@@ -2508,11 +2508,11 @@
 				#footer .copyright a:hover {
 					color: rgba(212, 212, 212, 0.85);
 				}
-				
+
 		#footer h1, #footer h2, #footer h3, #footer h4 { text-align: left; font-wwight: 900; }
-		
+
 		#footer .footer-bottom { height: 75px; }
-		
+
 		#footer #seal img {
 			position: absolute;
 			bottom: 20px;
@@ -2520,7 +2520,7 @@
 			height: 100px;
 			width: 100px;
 		}
-		
+
 		#footer #seal a { border: 0; }
 
 /* Carousel */
@@ -2889,7 +2889,7 @@
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
 			}
-			
+
 			#titleBar {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -2921,7 +2921,7 @@
 					text-align: center;
 					background-color: rgba(255, 255, 255, 0.95);
 				}
-				
+
 				#titleBar .title img { width: 150px; height: auto; filter: alpha(opacity=50); opacity: 0.5; }
 				#titleBar .title a { border: none; }
 
@@ -2934,7 +2934,7 @@
 					z-index: 1001;
 					border-bottom: none;
 				}
-					
+
 					#titleBar .toggle:before {
 						display: inline-block;
 						font-family: FontAwesome;
@@ -2958,7 +2958,7 @@
 						-ms-transition: color 0.35s ease-in-out;
 						transition: color 0.35s ease-in-out;
 					}
-					
+
 					#titleBar .toggle:hover:before {
 						color: #00aeef;
 					}
@@ -2966,7 +2966,7 @@
 					#titleBar .toggle:active:before {
 						background-color: #025;
 					}
-			
+
 			#navPanel {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -3024,7 +3024,7 @@
 					-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 					transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 				}
-				
+
 					#navPanel .link:hover {
 						color: #fff;
 						background: #00AEEF;
