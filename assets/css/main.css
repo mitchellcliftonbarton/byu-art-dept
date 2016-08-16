@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+/*@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");*/
 @import url("font-awesome.min.css");
 
 /*
@@ -1695,7 +1695,7 @@
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 1em;
+		/*margin-bottom: 1em;*/
 	}
 
 	p {
@@ -1768,7 +1768,7 @@
 
 		header > p {
 			display: block;
-			font-size: 1em;
+			font-size: 17px;
 			width: 55%;
 			margin: 0 auto;
 			line-height: 1.5em;
@@ -2440,10 +2440,11 @@
 /* Banner */
 
 	#banner {
-		background: rgba(255,255,255,.95);
+		background: rgba(255,255,255,.9);
 		text-align: center;
 		padding: 2em 2em 1em 2em;
 		margin-bottom: 0;
+		min-height: 400px;
 	}
 
 		#banner header > p {
@@ -2455,23 +2456,15 @@
 		margin-top: 60px;
 	}
 
-	.push-b-30 {
-		margin-bottom: 30px;
-	}
-
-	.push-t-30 {
-		margin-top: 30px;
-	}
-
-	.push-t-100 {
-		margin-top: 100px;
-	}
-
 	.fac-row {
 		display: flex;
 		padding: 40px 0px;
 		border-bottom: 1px solid #e2e2e2;
 		align-items: center;
+	}
+
+	.fac-row:last-of-type {
+		border-bottom: none;
 	}
 
 	.fac-row div:first-of-type p:first-of-type {
@@ -2491,13 +2484,42 @@
 		padding-left: 50px;
 	}
 
-	.fac-row p {
+	.wrapper p {
 		color: #555;
-		margin-bottom: 0;
+		/*margin-bottom: 0;*/
 	}
 
 	.fac-row .bio {
 		flex: 3 1;
+	}
+
+	.sec-main-title {
+		font-size: 19px;
+		letter-spacing: 3px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #e2e2e2;
+		font-weight: 400;
+	}
+
+	.sec-title {
+		margin-bottom: 10px;
+		font-weight: 400;
+	}
+
+	.sec-desc {
+		margin-bottom: 50px;
+	}
+
+	.push-b-30 {
+		margin-bottom: 30px;
+	}
+
+	.push-t-30 {
+		margin-top: 30px;
+	}
+
+	.push-t-100 {
+		margin-top: 100px;
 	}
 /* Content */
 
