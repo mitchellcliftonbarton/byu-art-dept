@@ -2156,9 +2156,8 @@
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		/*background: #fff;*/
 		margin: 0;
-		padding: 30px;
 	}
 
 		.wrapper.style2 {
@@ -2441,7 +2440,7 @@
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: rgba(255,255,255,.95);
 		text-align: center;
 		padding: 2em 2em 1em 2em;
 		margin-bottom: 0;
@@ -2456,12 +2455,16 @@
 		margin-top: 60px;
 	}
 
-	.push-d-30 {
+	.push-b-30 {
 		margin-bottom: 30px;
 	}
 
-	.push-u-30 {
+	.push-t-30 {
 		margin-top: 30px;
+	}
+
+	.push-t-100 {
+		margin-top: 100px;
 	}
 
 	.fac-row {
@@ -2723,7 +2726,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 16px;
 				line-height: 1.75em;
 			}
 
@@ -2751,7 +2754,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 12pt;
+				font-size: 15px;
 				line-height: 1.5em;
 			}
 
@@ -2799,7 +2802,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
+				font-size: 15px;
 				line-height: 1.65em;
 			}
 
@@ -2848,7 +2851,7 @@
 			}
 
 			body, input, textarea, select {
-				font-size: 12.5pt;
+				font-size: 14px;
 				line-height: 1.5em;
 			}
 
