@@ -2197,8 +2197,17 @@
 		}
 
 		.arr {
-			width: 50px;
-			margin-top: 80px;
+			display: block;
+			width: 80px;
+			height: 80px;
+			margin: 0 auto;
+			border-radius: 50%;
+			background: rgba(0,34,85,.9);
+		}
+
+		.arr img {
+			width: 30px;
+			margin-top: 34px;
 		}
 
 		#header header {
@@ -2243,7 +2252,7 @@
 			}
 
 		#header footer {
-			margin: 1em 0 0 0;
+			margin: 3.5em 0 0 0;
 		}
 
 		#header .wrapper {
@@ -2253,7 +2262,7 @@
 
 	body.homepage #header {
 		/*height: 100vh;*/
-		min-height: 40em;
+		min-height: 50em;
 	}
 
 		body.homepage #header h1 {
@@ -2453,7 +2462,7 @@
 		}
 
 	#banner .full {
-		width: 100%;
+		width: 70%;
 		margin-top: 60px;
 	}
 
