@@ -6,6 +6,30 @@
 
 (function($) {
 
+	var pictures = ['http://daniel-everett.com/BYUTEMP/images/bg.jpg',
+									'http://daniel-everett.com/BYUTEMP/images/bg2.jpg',
+									'http://daniel-everett.com/BYUTEMP/images/bg3.jpg',
+									'http://daniel-everett.com/BYUTEMP/images/bg4.jpg',
+									'http://daniel-everett.com/BYUTEMP/images/bg5.jpg'];
+
+
+
+  function loadit(el) {
+      el.onload = function() {
+				// alert('hello!');
+    };
+  }
+
+	if (document.images) {
+		var img = new Image();
+		var numPics = pictures.length;
+		var chosenPic = Math.floor((Math.random() * numPics));
+		var chosen = pictures[chosenPic];
+		img.src = chosen;
+		document.getElementById('header').style.backgroundImage = 'url(' + chosen + ')';
+		loadit(img);
+  }
+
 	var settings = {
 
 		// Carousels
@@ -30,7 +54,7 @@
 				}
 			}
 		});
-		
+
 	/* skel.breakpoints({
 		wide: '(max-width: 1680px)',
 		normal: '(max-width: 1280px)',
@@ -90,7 +114,7 @@
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + //$('#logo').html() + 
+						'<span class="title">' + //$('#logo').html() +
 							'<a href="/" class="byuart">B Y U A R T' +
 							'</a>' +
 						'</span>' +
@@ -273,17 +297,3 @@
 	});
 
 })(jQuery);
-
-window.onload = function () {
-var pictures =new Array
-('http://daniel-everett.com/BYUTEMP/images/bg.jpg',
-'http://daniel-everett.com/BYUTEMP/images/bg2.jpg',
-'http://daniel-everett.com/BYUTEMP/images/bg3.jpg',
-'http://daniel-everett.com/BYUTEMP/images/bg4.jpg',
-'http://daniel-everett.com/BYUTEMP/images/bg5.jpg');
-var numPics = pictures.length;
-if (document.images) {
-var chosenPic = Math.floor((Math.random() * numPics));
-document.getElementById('header').style.backgroundImage = 'url(' + pictures[chosenPic] + ')';
-    }
-}
