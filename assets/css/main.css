@@ -2508,12 +2508,13 @@
 		flex: 3 1;
 	}
 
-	.sec-main-title {
+	.wrapper .sec-main-title {
 		font-size: 19px;
 		letter-spacing: 3px;
 		padding-bottom: 10px;
 		border-bottom: 1px solid #e2e2e2;
 		font-weight: 400;
+		color: #00AEEF;
 	}
 
 	.sec-title {
@@ -2523,6 +2524,18 @@
 
 	.sec-desc {
 		margin-bottom: 50px;
+	}
+
+	.sec-title, .sec-desc {
+		padding-left: 30px;
+	}
+
+	.sub-title {
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 15px;
+		margin-bottom: 20px;
+		font-weight: 400;
 	}
 
 	.push-b-30 {
