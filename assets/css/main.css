@@ -3042,6 +3042,7 @@
 
 			header > p {
 				font-size: 1.25em;
+				width: 100%;
 			}
 
 		/* Image */
@@ -3056,6 +3057,11 @@
 
 			.image.centered {
 				margin: 0 0 1em 0;
+			}
+
+			#banner .full {
+				width: 100%;
+				margin-top: 10px;
 			}
 
 		/* List */
@@ -3324,7 +3330,8 @@
 		/* Wrapper */
 
 			.wrapper {
-				padding: 3em 1em 3em 1em;
+				/*padding: 3em 1em 3em 1em;*/
+				padding: 0;
 			}
 
 		/* Header */
@@ -3343,10 +3350,12 @@
 				padding: 0;
 			}
 
+			.full-height .push-t-100 {
+				margin-top: 40px;
+			}
+
 				#header .inner {
-					padding-top: 1.5em;
-					padding-left: 1em;
-					padding-right: 1em;
+					padding: 2.5em 1em;
 				}
 
 				#header header > p {
