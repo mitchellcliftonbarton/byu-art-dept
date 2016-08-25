@@ -730,7 +730,8 @@
 		}
 
 		.row {
-			margin: -36px 0 -1px -36px;
+			/*margin: -36px 0 -1px -36px;*/
+			margin: 0;
 		}
 
 		.row.uniform > * {
@@ -945,7 +946,8 @@
 		}
 
 		.row {
-			margin: -32px 0 -1px -32px;
+			/*margin: -32px 0 -1px -32px;*/
+			margin: 0;
 		}
 
 		.row.uniform > * {
@@ -1160,7 +1162,8 @@
 		}
 
 		.row {
-			margin: -32px 0 -1px -32px;
+			/*margin: -32px 0 -1px -32px;*/
+			margin: 0;
 		}
 
 		.row.uniform > * {
@@ -2351,7 +2354,7 @@
 						margin-right: 60px;
 					}
 
-						#titleBar .title a.byuart { top: auto; vertical-align: middle; }
+						#titleBar .title a.byuart { top: 12px; vertical-align: middle; }
 
 						#nav li a.byuart:hover, #titleBar .title a.byuart:hover {
 							background: url('http://christopher-lynn.com/byu/i/byu-art-logo-150pxw-sprite.png') no-repeat 0 0px scroll;
@@ -2650,7 +2653,7 @@
 
 		#footer #seal a { border: 0; }
 
-		.main-footer, .foot-head, .foot-bottom {
+		.foot-head, .foot-bottom {
 			padding: 0;
 			width: 100%;
 			display: flex;
@@ -2665,11 +2668,15 @@
 			padding-right: 8px;
 		}
 
-		.foot-head .foot-sec p, .main-footer .foot-sec p, .copyright{
+		.foot-head .foot-sec p, .copyright{
 			font-weight: 400;
 			font-size: 12px;
 			line-height: 18px;
 			letter-spacing: .3px;
+		}
+
+		.foot-sec p:first-of-type {
+			padding-bottom: 10px;
 		}
 
 		.split {
@@ -2848,9 +2855,9 @@
 
 		/* Header */
 
-			#header {
+			/*#header {
 				background-attachment: scroll;
-			}
+			}*/
 
 				#header .inner {
 					padding-left: 2em;
@@ -2931,16 +2938,25 @@
 			flex-wrap: wrap;
 			padding: 0;
 			border-bottom: none;
+			margin-bottom: 30px;
 		}
 
 		.fac-row img {
 			height: auto;
-			width: 100%;
+			/*width: 100%;*/
+			width: 100px;
 			display: block;
 		}
 
 		.fac-row div:first-of-type, .fac-row .bio {
 			flex: auto;
+		}
+
+		.fac-row div:first-of-type {
+			padding-left: 30px;
+		}
+
+		.fac-row .bio {
 			padding-left: 0;
 		}
 
@@ -3106,11 +3122,13 @@
 					font-weight: 500;
 					text-transform: uppercase;
 					font-size: 1.25em;
-					line-height: 2.7em;
+					/*line-height: 2.7em;*/
 					color: transparent;
 					z-index: 1000;
 					text-align: center;
 					background-color: rgba(255, 255, 255, 0.95);
+					height: 49px;
+					border-bottom: 1px solid #e8e8e8;
 				}
 
 				#titleBar .title img { width: 150px; height: auto; filter: alpha(opacity=50); opacity: 0.5; }
@@ -3288,6 +3306,15 @@
 				padding: 2.5em 0 0 0;
 			}
 
+			#header .wrapper {
+				width: 100%;
+				padding: 0;
+			}
+
+			.sec-title, .sec-desc {
+				padding: 0;
+			}
+
 				#header .inner {
 					padding-top: 1.5em;
 					padding-left: 1em;
@@ -3309,7 +3336,8 @@
 
 			body.homepage #header {
 				min-height: 0;
-				padding: 5.5em 0 5em 0;
+				/*padding: 5.5em 0 5em 0;*/
+				padding-top: 49px;
 				height: auto;
 			}
 
@@ -3330,7 +3358,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 3em 2em 3em 2em;
+				padding: 15px;
 			}
 
 		/* Sidebar */
