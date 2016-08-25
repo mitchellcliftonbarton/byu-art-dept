@@ -3254,14 +3254,16 @@
 					display: block;
 					color: inherit;
 					text-decoration: none;
+					letter-spacing: 1px;
 					height: 2.5em;
 					line-height: 2.5em;
 					font-size: 70%;
-					text-transform: none;
+					font-weight: 200;
+					text-transform: uppercase;;
 					padding: 0 1em 0 1em;
 					color: #888;
 					color: rgba(255, 255, 255, 0.5);
-					border-top: solid 2px rgba(87, 93, 89, 0.15);
+					/*border-top: solid 2px rgba(87, 93, 89, 0.15);*/
 					-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 					-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 					-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
