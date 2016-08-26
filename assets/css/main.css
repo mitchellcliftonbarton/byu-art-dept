@@ -2191,7 +2191,7 @@
 	}
 
 		.wrapper.style2 {
-			padding-top: 0;
+			padding: 0;
 		}
 
 /* Header */
@@ -3333,7 +3333,6 @@
 
 			.wrapper {
 				/*padding: 3em 1em 3em 1em;*/
-				padding: 0;
 			}
 
 		/* Header */
@@ -3397,7 +3396,7 @@
 		/* Banner */
 
 			#banner {
-				padding: 15px;
+				padding: 15px 15px 40px 15px;
 			}
 
 		/* Sidebar */
