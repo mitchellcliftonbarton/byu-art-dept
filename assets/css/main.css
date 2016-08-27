@@ -2206,6 +2206,7 @@
 		padding: 6.5em 0 2em 0;
 		cursor: default;
 		z-index: -2;
+		min-height: 680px;
 	}
 
 	.homepage #header {
