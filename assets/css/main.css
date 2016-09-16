@@ -18,12 +18,17 @@
 		vertical-align: baseline;
 	}
 
+	html {
+		height: 100%;
+	}
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
 
 	body {
 		line-height: 1;
+
 	}
 
 	ol, ul {
@@ -1631,6 +1636,9 @@
 		line-height: 1.75em;
 		font-family: 'Helvetica', sans-serif;
 		font-weight: 300;
+		display: flex;
+		min-height: 100%;
+		flex-direction: column;
 	}
 
 		body.is-loading *, body.is-loading *:after, body.is-loading *:before {
@@ -2220,6 +2228,7 @@
 		cursor: default;
 		z-index: -2;
 		min-height: 680px;
+		flex: 1;
 	}
 
 	.homepage #header {
@@ -2515,6 +2524,10 @@
 		min-height: 400px;
 	}
 
+	.real-home #banner {
+		margin-bottom: 0
+	}
+
 		#banner header > p {
 			margin-bottom: 0;
 		}
@@ -2670,6 +2683,10 @@
 
 		#footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
 			color: #595857;
+		}
+
+		.push {
+			height: 279px;
 		}
 
 		#footer .contact {
@@ -3097,6 +3114,10 @@
 				margin-top: 10px;
 			}
 
+			#banner {
+				margin-bottom: 0;
+			}
+
 		/* List */
 
 			form ul.actions {
@@ -3378,6 +3399,23 @@
 			#header .wrapper {
 				width: 100%;
 				padding: 0;
+			}
+
+			.curriculum .sec-title {
+				padding: 0;
+			}
+
+			.artists {
+				display: block;
+				margin-top: 30px;
+			}
+
+			.artists .columns {
+				padding: 0;
+			}
+
+			.artists p {
+				text-align: center;
 			}
 
 			.sec-title, .sec-desc {
