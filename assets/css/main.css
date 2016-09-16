@@ -1601,10 +1601,13 @@
 		}
 
 		.foot-head {
+			-webkit-flex-wrap: wrap;
 			flex-wrap: wrap;
 		}
 
 		.foot-head .foot-sec {
+			-webkit-flex: 1 1 100%;
+			-ms-flex: 1 1 100%;
 			flex: 1 1 100%;
 			margin-bottom: 20px;
 		}
@@ -1614,10 +1617,13 @@
 		}
 
 		.split {
+			-webkit-flex-wrap: wrap;
 			flex-wrap: wrap;
 		}
 
 		.copyright, #seal {
+			-webkit-flex: 1 1 100%;
+			-ms-flex: 1 1 100%;
 			flex: 1 1 100%;
 			margin-top: 20px;
 		}
@@ -1636,8 +1642,12 @@
 		line-height: 1.75em;
 		font-family: 'Helvetica', sans-serif;
 		font-weight: 300;
-		display: flex;
+		display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
 		min-height: 100%;
+		-webkit-flex-direction: column;
 		flex-direction: column;
 	}
 
@@ -2228,7 +2238,9 @@
 		cursor: default;
 		z-index: -2;
 		min-height: 680px;
-		flex: 1;
+		-webkit-flex: 1 1;
+		-ms-flex: 1 1;
+		flex: 1 1;
 	}
 
 	.homepage #header {
@@ -2538,7 +2550,10 @@
 	}
 
 	.fac-row {
-		display: flex;
+		display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	  display: -ms-flexbox;  /* TWEENER - IE 10 */
+	  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 		padding: 40px 0px;
 		border-bottom: 1px solid #e2e2e2;
 		align-items: center;
@@ -2558,6 +2573,8 @@
 	}
 
 	.fac-row div {
+		-webkit-flex: 1 1;
+		-ms-flex: 1 1;
 		flex: 1 1;
 	}
 
@@ -2571,7 +2588,11 @@
 	}
 
 	.artists {
-		display: flex;
+		display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+	  display: -ms-flexbox;  /* TWEENER - IE 10 */
+	  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+	  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+		-webkit-justify-content: center;
 		justify-content: center;
 	}
 
@@ -2581,6 +2602,8 @@
 	}
 
 	.fac-row .bio {
+		-webkit-flex: 3 1;
+		-ms-flex: 3 1;
 		flex: 3 1;
 	}
 
@@ -2733,7 +2756,10 @@
 		.foot-head, .foot-bottom {
 			padding: 0;
 			width: 100%;
-			display: flex;
+			display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+		  display: -ms-flexbox;  /* TWEENER - IE 10 */
+		  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+		  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 		}
 
 		.foot-head {
@@ -2741,6 +2767,8 @@
 		}
 
 		.foot-sec {
+			-webkit-flex: 1 1;
+			-ms-flex: 1 1;
 			flex: 1 1;
 			padding-right: 8px;
 		}
@@ -2758,7 +2786,9 @@
 		}
 
 		.split {
+			-webkit-justify-content: space-between;
 			justify-content: space-between;
+			-webkit-align-items: flex-end;
 			align-items: flex-end;
 		}
 
@@ -2981,6 +3011,7 @@
 			}
 
 			.fac-row {
+				-webkit-align-items: flex-start;
 				align-items: flex-start;
 			}
 
@@ -3013,6 +3044,7 @@
 		#titleBar .title img { width: 200px; height: auto; filter: alpha(opacity=50); opacity: 0.5; }
 
 		.fac-row {
+			-webkit-flex-wrap: wrap;
 			flex-wrap: wrap;
 			padding: 0;
 			border-bottom: none;
@@ -3027,6 +3059,8 @@
 		}
 
 		.fac-row div:first-of-type, .fac-row .bio {
+			-webkit-flex: auto;
+			-ms-flex: auto;
 			flex: auto;
 		}
 
