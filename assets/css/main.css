@@ -1701,10 +1701,23 @@
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 	}
 
-		a:hover {
-			color: #00AEEF;
-			border-bottom-color: transparent;
-		}
+	a:hover {
+		color: #00AEEF;
+		border-bottom-color: transparent;
+	}
+
+	.wrapper a {
+		color: #00AEEF;
+		border-bottom: solid 1px #00AEEF;
+		-moz-transition: opacity .3s;
+		-webkit-transition: opacity .3s;
+		-ms-transition: opacity .3s;
+		transition: opacity .3s;
+	}
+
+	.wrapper a:hover {
+		opacity: .6;
+	}
 
 	sub {
 		position: relative;
@@ -2544,6 +2557,16 @@
 		/*margin-bottom: 0;*/
 	}
 
+	.artists {
+		display: flex;
+		justify-content: center;
+	}
+
+	.artists .columns {
+		/*flex: 3 1;*/
+		padding: 45px;
+	}
+
 	.fac-row .bio {
 		flex: 3 1;
 	}
@@ -2566,7 +2589,7 @@
 		margin-bottom: 50px;
 	}
 
-	.sec-title, .sec-desc {
+	.curriculum .sec-title, .sec-desc {
 		padding-left: 30px;
 	}
 
