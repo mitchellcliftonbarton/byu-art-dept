@@ -1643,10 +1643,12 @@
 		font-family: 'Helvetica', sans-serif;
 		font-weight: 300;
 		display: -webkit-box;
+		/*display: -moz-box;*/
 	  display: -ms-flexbox;
 	  display: -webkit-flex;
 	  display: flex;
 		min-height: 100%;
+		/*-moz-flex-direction: column;*/
 		-webkit-flex-direction: column;
 		flex-direction: column;
 	}
@@ -2257,7 +2259,7 @@
 		#header .inner {
 			position: relative;
 			z-index: 1;
-			margin: 0;
+			margin: 0 auto;
 			display: inline-block;
 			vertical-align: middle;
 		}
@@ -2552,6 +2554,7 @@
 	.fac-row {
 		display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
 	  display: -ms-flexbox;  /* TWEENER - IE 10 */
+		display: -moz-box;
 	  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 	  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 		padding: 40px 0px;
@@ -2590,6 +2593,7 @@
 	.artists {
 		display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
 	  display: -ms-flexbox;  /* TWEENER - IE 10 */
+		display: -moz-box;
 	  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 	  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 		-webkit-justify-content: center;
@@ -2758,6 +2762,7 @@
 			width: 100%;
 			display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
 		  display: -ms-flexbox;  /* TWEENER - IE 10 */
+			display: -moz-box;
 		  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
 		  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
 		}
